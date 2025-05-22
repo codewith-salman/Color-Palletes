@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-foreground: #222;
+  --header-second-foreground: #555;
+  --name-foreground: #666;
+  --hex-foreground: #333;
+  --card-radius: 16px;
+  --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #ffffff, #e6e6e6);
+  color: var(--header-foreground);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Baloo Da 2", cursive;
+}
+
+.header {
+  padding: 60px 30px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--header-foreground);
+  margin-bottom: 10px;
+}
+
+.header span {
+  color: var(--header-second-foreground);
+  font-weight: 400;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 0;
+}
+
+.search-box div {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 12px 20px;
+  padding-right: 50px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  color: #333;
+  transition: 0.3s;
+}
+
+.search-bar:focus {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.search-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #414141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #2c2c2c;
+}
+
+.search-btn i {
+  color: #fff;
+  font-size: 16px;
+}
+
+.color-palette-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 30px;
+  gap: 50px;
+}
+
+.card {
+  height: 220px;
+  width: 240px;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-head {
+  background: #ffffff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--name-foreground);
+}
+
+.hex {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--hex-foreground);
+}
+
+.card-body {
+  height: 100%;
+  width: 100%;
+}
