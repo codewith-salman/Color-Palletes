@@ -1,12 +1,9 @@
 <div id="top"></div>
 
-<br />
 <div align="center">
 
-<br /><br />
-
 ## 🎨 Color Palette Website  
-A clean, modern, and interactive **Color Palette Generator Website** built using HTML, CSS, and JavaScript.  
+A clean, modern, and interactive **Color Palette Generator Website** built using HTML, CSS.  
 Designed to help users explore, copy, and create beautiful color combinations with ease.
 
 </div>
@@ -48,7 +45,6 @@ Perfect for:
 
 * [HTML5](https://html5.org/)  
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)  
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
 
 ---
 
