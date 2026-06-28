@@ -64,8 +64,7 @@ Ideal for:
 
 - Interactive color palette generator  
 - One-click color copying  
-- Clean and modern grid layout  
-- Smooth hover animations and transitions  
+- Clean and modern grid layout   
 - Fully responsive design  
 - Easy to customize with custom color sets  
 - Lightweight, fast, and intuitive  
