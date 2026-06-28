@@ -58,8 +58,6 @@ Ideal for:
 - Creative project inspiration  
 - Portfolio demonstration of interactive JavaScript tools  
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ---
 
 ## ✨ Features
@@ -72,8 +70,6 @@ Ideal for:
 - Easy to customize with custom color sets  
 - Lightweight, fast, and intuitive  
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ---
 
 ## 🛠️ Built With
@@ -81,8 +77,6 @@ Ideal for:
 - **HTML5**  
 - **CSS3**  
 - **JavaScript (Vanilla)**  
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
