@@ -66,8 +66,7 @@ Ideal for:
 - One-click color copying  
 - Clean and modern grid layout   
 - Fully responsive design  
-- Easy to customize with custom color sets  
-- Lightweight, fast, and intuitive  
+- Easy to customize with custom color sets   
 
 ---
 
